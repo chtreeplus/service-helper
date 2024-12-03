@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package decemtech.proto.helpers.event;
+package ch3.proto.helpers.event;
 
 option go_package = "repository.ch3plus.com/utility/service-helper/proto/event";
 

@@ -12,8 +12,6 @@ require (
 	github.com/go-playground/validator/v10 v10.3.0
 	github.com/go-redis/redis/v7 v7.4.0
 	github.com/golang/protobuf v1.4.1
-	github.com/google/logger v1.1.0
-	github.com/labstack/gommon v0.3.0
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/olivere/elastic/v7 v7.0.20
 	github.com/robfig/cron/v3 v3.0.1
