@@ -25,5 +25,3 @@ require (
 	gorm.io/driver/postgres v1.0.5
 	gorm.io/gorm v1.20.6
 )
-
-replace github.com/micro/go-micro/v2 v2.9.1 => github.com/Decem-Technology/nitro/v2 v2.9.1-ct.1
