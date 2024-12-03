@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"os"
 	"reflect"
+	"repository.ch3plus.com/utility/service-helper/dto"
 	"strings"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/go-playground/validator/v10"
 	"github.com/go-redis/redis/v7"
-	microError "github.com/micro/go-micro/v2/errors"
 	"github.com/micro/go-micro/v2/metadata"
 	"github.com/thoas/go-funk"
 	"repository.ch3plus.com/utility/service-helper/bootstrap"
@@ -274,7 +274,7 @@ func (ctx *AppContext) Validate(s interface{}, prefixNamespace ...string) error 
 
 	var errMsg string
 	//Validation errors occurred
-	errorsFields := make(map[string]*microError.ValidateErrors)
+	errorsFields := make(map[string]*dto.ValidateErrors)
 	errorLists := make([]string, 0)
 	//Use reflector to reverse engineer struct
 	if err != nil {
@@ -296,7 +296,7 @@ func (ctx *AppContext) Validate(s interface{}, prefixNamespace ...string) error 
 			keyName := strings.Replace(fmt.Sprintf("%s", name), "_", " ", -1)
 			value := validate.Param()
 			if _, ok := errorsFields[fieldName]; !ok {
-				errorsFields[fieldName] = &microError.ValidateErrors{
+				errorsFields[fieldName] = &dto.ValidateErrors{
 					FieldName: fieldName,
 				}
 			}
@@ -346,7 +346,7 @@ func (ctx *AppContext) Validate(s interface{}, prefixNamespace ...string) error 
 			errorLists = append(errorLists, msg)
 			errMsg += fmt.Sprintf("%s\n", msg)
 		}
-		return microError.NewValidateError(errorsFields)
+		return dto.NewValidateError(errorsFields)
 	} else {
 		return nil
 	}
