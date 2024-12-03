@@ -2,7 +2,8 @@ syntax = "proto3";
 
 package decemtech.proto.helpers.event;
 
-option go_package = "github.com/Decem-Technology/service-helper/proto/event";
+option go_package = "repository.ch3plus.com/utility/service-helper/proto/event";
+
 
 message Event {
     string name = 1;

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package decemtech.proto.helpers.mail;
 
-option go_package = "github.com/Decem-Technology/service-helper/proto/mail";
+option go_package = "repository.ch3plus.com/utility/service-helper/proto/mail";
 
 message MailMessage {
 	string sender = 1;

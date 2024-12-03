@@ -9,16 +9,16 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Decem-Technology/service-helper/bootstrap"
-	"github.com/Decem-Technology/service-helper/helpers/wrappers"
-	"github.com/Decem-Technology/service-helper/utils"
-	"github.com/Decem-Technology/service-helper/validators"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/go-playground/validator/v10"
 	"github.com/go-redis/redis/v7"
 	microError "github.com/micro/go-micro/v2/errors"
 	"github.com/micro/go-micro/v2/metadata"
 	"github.com/thoas/go-funk"
+	"repository.ch3plus.com/utility/service-helper/bootstrap"
+	"repository.ch3plus.com/utility/service-helper/helpers/wrappers"
+	"repository.ch3plus.com/utility/service-helper/utils"
+	"repository.ch3plus.com/utility/service-helper/validators"
 )
 
 type (

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package decemtech.proto.helpers.response;
 
-option go_package = "github.com/Decem-Technology/service-helper/proto/response";
+option go_package = "repository.ch3plus.com/utility/service-helper/proto/response";
 
 import "google/protobuf/wrappers.proto";
 

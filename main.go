@@ -1,18 +1,18 @@
 package main
 
 import (
-	_ "github.com/Decem-Technology/service-helper/bootstrap"
-	_ "github.com/Decem-Technology/service-helper/contracts"
-	_ "github.com/Decem-Technology/service-helper/helpers"
-	_ "github.com/Decem-Technology/service-helper/helpers/cipher"
-	_ "github.com/Decem-Technology/service-helper/helpers/dump"
-	_ "github.com/Decem-Technology/service-helper/helpers/file"
-	_ "github.com/Decem-Technology/service-helper/helpers/gorm"
-	_ "github.com/Decem-Technology/service-helper/helpers/wrappers"
-	_ "github.com/Decem-Technology/service-helper/proto/event"
-	_ "github.com/Decem-Technology/service-helper/proto/response"
-	_ "github.com/Decem-Technology/service-helper/utils"
-	_ "github.com/Decem-Technology/service-helper/validators"
+	_ "repository.ch3plus.com/utility/service-helper/bootstrap"
+	_ "repository.ch3plus.com/utility/service-helper/contracts"
+	_ "repository.ch3plus.com/utility/service-helper/helpers"
+	_ "repository.ch3plus.com/utility/service-helper/helpers/cipher"
+	_ "repository.ch3plus.com/utility/service-helper/helpers/dump"
+	_ "repository.ch3plus.com/utility/service-helper/helpers/file"
+	_ "repository.ch3plus.com/utility/service-helper/helpers/gorm"
+	_ "repository.ch3plus.com/utility/service-helper/helpers/wrappers"
+	_ "repository.ch3plus.com/utility/service-helper/proto/event"
+	_ "repository.ch3plus.com/utility/service-helper/proto/response"
+	_ "repository.ch3plus.com/utility/service-helper/utils"
+	_ "repository.ch3plus.com/utility/service-helper/validators"
 )
 
 func main() {

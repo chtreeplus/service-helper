@@ -6,8 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Decem-Technology/service-helper/proto/mail"
 	"gopkg.in/gomail.v2"
+	"repository.ch3plus.com/utility/service-helper/proto/mail"
 )
 
 type (
