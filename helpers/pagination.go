@@ -3,8 +3,8 @@ package helpers
 import (
 	"math"
 
-	responsePB "github.com/Decem-Technology/service-helper/proto/response"
 	wrappers "github.com/golang/protobuf/ptypes/wrappers"
+	responsePB "github.com/saylom99/service-helper/proto/response"
 	"gorm.io/gorm"
 )
 

@@ -1,4 +1,4 @@
-module github.com/Decem-Technology/service-helper
+module github.com/saylom99/service-helper
 
 go 1.14
 
