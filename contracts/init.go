@@ -1,7 +1,7 @@
 package contracts
 
 import (
-	"repository.ch3plus.com/utility/service-helper/bootstrap"
+	"github.com/Decem-Technology/service-helper/bootstrap"
 )
 
 type Contract struct {
