@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/chtreeplus/service-helper/utils"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/saylom99/service-helper/utils"
 )
 
 type (

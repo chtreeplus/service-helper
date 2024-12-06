@@ -1,4 +1,4 @@
-module github.com/saylom99/service-helper
+module github.com/chtreeplus/service-helper
 
 go 1.14
 

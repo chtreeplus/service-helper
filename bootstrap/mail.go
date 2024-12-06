@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/saylom99/service-helper/proto/mail"
+	"github.com/chtreeplus/service-helper/proto/mail"
 	"gopkg.in/gomail.v2"
 )
 
